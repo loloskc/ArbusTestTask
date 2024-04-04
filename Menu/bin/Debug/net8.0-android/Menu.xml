@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Menu</name>
+    </assembly>
+    <members>
+        <member name="T:Menu.ViewModel.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Menu.ViewModel.BaseViewModel.Page">
+            <inheritdoc cref="F:Menu.ViewModel.BaseViewModel.page"/>
+        </member>
+        <member name="T:Menu.ViewModel.PageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Menu.ViewModel.PageViewModel.nextPageCommand">
+            <summary>The backing field for <see cref="P:Menu.ViewModel.PageViewModel.NextPageCommand"/>.</summary>
+        </member>
+        <member name="P:Menu.ViewModel.PageViewModel.NextPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Menu.ViewModel.PageViewModel.NextPage"/>.</summary>
+        </member>
+        <member name="F:Menu.ViewModel.PageViewModel.prevPageCommand">
+            <summary>The backing field for <see cref="P:Menu.ViewModel.PageViewModel.PrevPageCommand"/>.</summary>
+        </member>
+        <member name="P:Menu.ViewModel.PageViewModel.PrevPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Menu.ViewModel.PageViewModel.PrevPage"/>.</summary>
+        </member>
+        <member name="F:Menu.ViewModel.PageViewModel.getCollectionCommand">
+            <summary>The backing field for <see cref="P:Menu.ViewModel.PageViewModel.GetCollectionCommand"/>.</summary>
+        </member>
+        <member name="P:Menu.ViewModel.PageViewModel.GetCollectionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Menu.ViewModel.PageViewModel.GetCollection"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Page">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Page" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Page">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Page" generated properties.</summary>
+        </member>
+    </members>
+</doc>

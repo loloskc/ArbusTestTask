@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Menu.Model"
+             xmlns:viewmodel="clr-namespace:Menu.ViewModel"
+             x:DataType="viewmodel:PageViewModel"
+             x:Class="Menu.MainPage"
+             Title="Menu">
+    
+    <Grid ColumnDefinitions="*,*"
+       ColumnSpacing="5"
+       RowDefinitions="*,Auto"
+       RowSpacing="0">
+        <CollectionView BackgroundColor="Transparent"
+                        Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Dishes}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Dish">
+                    <Grid Padding="10">
+                        <Frame HeightRequest="125">
+                            <VerticalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Label Text="Название" WidthRequest="100"/>
+                                    <Label Text="Цена"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Label Text="{Binding Name}" WidthRequest="100"/>
+                                    <Label Text="{Binding Price}"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                            
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Grid Grid.ColumnSpan="2"  ColumnDefinitions="*,*,*"
+           Grid.Row="1">
+            <Button Text="Prev"
+                    Command="{Binding PrevPageCommand}"/>
+            <Label VerticalOptions="Center" HorizontalOptions="Center" FontSize="30" Text="{Binding Page}" Grid.Column="1" />
+            <Button Text="Next"
+                    Grid.Column="2"
+                    Command="{Binding NextPageCommand}"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,13 @@
+C:\Users\denis\Desktop\ERC\Menu\Menu\bin\Debug\net8.0\Menu.deps.json
+C:\Users\denis\Desktop\ERC\Menu\Menu\bin\Debug\net8.0\Menu.dll
+C:\Users\denis\Desktop\ERC\Menu\Menu\bin\Debug\net8.0\Menu.pdb
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.csproj.AssemblyReference.cache
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.AssemblyInfoInputs.cache
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.AssemblyInfo.cs
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.csproj.CoreCompileInputs.cache
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\XamlC.stamp
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.dll
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\refint\Menu.dll
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\Menu.pdb
+C:\Users\denis\Desktop\ERC\Menu\Menu\obj\Debug\net8.0\ref\Menu.dll
